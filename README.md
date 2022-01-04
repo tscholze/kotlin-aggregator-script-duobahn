@@ -3,6 +3,9 @@
 # kotlin-aggregator-script-duobahn
 > This Aggregator script for my app Android ["DuoBahn"](https://github.com/tscholze/kotlin-surfaceduo-duobahn) app is written in Kotlin, compiled to a *.jar and now runs on GitHub Actions every 6 hours to fetch all interesing information from the German federal Autobahn API.
 
+**Caution**
+Currently disabled until DuoBahn app uses the data.
+
 # What does a GitHub Action run do?
 1. Checks out the repository
 2. Renames the latest `autobahns.json` to an archived one with time stamp
