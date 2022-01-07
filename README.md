@@ -1,7 +1,7 @@
 ![DuoBahn Logo](https://github.com/tscholze/kotlin-surfaceduo-duobahn/blob/main/docs/logo.png?raw=true)
 
 # kotlin-aggregator-script-duobahn
-> This Aggregator script for my app Android ["DuoBahn"](https://github.com/tscholze/kotlin-surfaceduo-duobahn) app is written in Kotlin, compiled to a *.jar and now runs on GitHub Actions every 6 hours to fetch all interesing information from the German federal Autobahn API.
+> This Aggregator script for my app Android ["DuoBahn"](https://github.com/tscholze/kotlin-surfaceduo-duobahn) app is written in Kotlin, compiled to a *.jar and now runs on GitHub Actions every 6 hours to fetch all interesing information from the OpenData Autobahn API.
 
 **Caution**
 Currently disabled until DuoBahn app uses the data.
@@ -22,7 +22,7 @@ At the moment, it is just me, [Tobi]([https://tscholze.github.io).
 
 ## Acknowledgments
 
-* [Federal Autobahn API](https://autobahn.api.bund.dev/)
+* [Open Data Autobahn API](https://autobahn.api.bund.dev/)
 * Github Actions: [Setup Java](https://github.com/actions/setup-java)
 * [Crontab Guru](https://crontab.guru]) for teaching my the syntax
 
