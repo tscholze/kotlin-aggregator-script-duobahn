@@ -33,7 +33,7 @@ jobs:
         
       # Run script
       - name: Run *.jar
-        run: java -jar DuoBahn-AggregatorScript-0.1-SNAPSHOT.jar
+        run: echo 'disabled' #java -jar DuoBahn-AggregatorScript-0.1-SNAPSHOT.jar
         
       # Git coomit and push
       - name: Git commit and push
